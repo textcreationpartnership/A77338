@@ -1,0 +1,960 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Threnodia. On the death of the high born prince Henry, Duke of Glocester. By Arthur Brett, student of Christ-Church.</title>
+            <author>Brett, Arthur, d. 1677?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77338</idno>
+            <idno type="STC">Wing B4398</idno>
+            <idno type="STC">Thomason E1047_1</idno>
+            <idno type="STC">ESTC R208076</idno>
+            <idno type="EEBO-CITATION">99858761</idno>
+            <idno type="PROQUEST">99858761</idno>
+            <idno type="VID">110819</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77338)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 110819)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 155:E1047[1])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Threnodia. On the death of the high born prince Henry, Duke of Glocester. By Arthur Brett, student of Christ-Church.</title>
+                  <author>Brett, Arthur, d. 1677?</author>
+               </titleStmt>
+               <extent>21, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by H: hall, printer to the University, for Ric: Davis,</publisher>
+                  <pubPlace>Oxford :</pubPlace>
+                  <date>1660.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Annotation on Thomason copy: "Oct. 25.".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Henry, --  Duke of Gloucester, 1640-1660 --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:110819:1" rendition="simple:additions"/>
+            <p>
+               <hi>THRENODIA.</hi>
+            </p>
+            <p>On the DEATH of the High born Prince HENRY, DUKE of <hi>GLOCESTER.</hi>
+            </p>
+            <p>By <hi>Arthur Brett,</hi> Student of <hi>Chriſt-Church.</hi>
+            </p>
+            <q>—HENRICOS oſtendunt fata, nec ultrà Eſſe ſinunt.—</q>
+            <p>
+               <hi>Oxford,</hi> Printed by <hi>H: Hall,</hi> Printer to the Univerſity, for <hi>Ric: Davis,</hi> 1660.</p>
+         </div>
+      </front>
+      <body>
+         <div type="threnody">
+            <pb facs="tcp:110819:2"/>
+            <pb n="3" facs="tcp:110819:2"/>
+            <head>THRENODIA.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">W</seg>Hat ails the Town? what is it it bemoans?</l>
+               <l>I can meet nought but doleful tones,</l>
+               <l>Nought but ſobs, and ſighs, and groans;</l>
+               <l>Each Lady <hi>Niobe</hi> appears;</l>
+               <l>And as for the Philoſophers,</l>
+               <l>They're <hi>Heraclitus's</hi> all by their Tears.</l>
+            </lg>
+            <lg>
+               <l>Now Warlike Trumpets ceaſe to pierce our Ear,</l>
+               <l>Look we the laſt Trump to hear?</l>
+               <l>Do we a Diſſolut' on fear?</l>
+               <l>Is th Univerſal Feaver nigh?</l>
+               <l>Is the Earth-An'mal like to die?</l>
+               <l>And is it for mankind, mankind doth cry?</l>
+            </lg>
+            <lg>
+               <l>Either the World is like to be undone,</l>
+               <l>Or one that's worth the World is gone,</l>
+               <l>Brother to Monarchy and Son.</l>
+               <l>Y' who from the two great Cities come,</l>
+               <l>Of theſe ſad tidings gi's the ſum;</l>
+               <l>Mutes! high aſtoniſhment has ſtruck 'um dumb.</l>
+            </lg>
+            <lg>
+               <l>But what's not heard from others may be read,</l>
+               <l>The joy of <hi>Englands</hi> joy is fled,</l>
+               <l>
+                  <hi>CHARLES</hi>'s beloved <hi>Gloceſter</hi> dead:</l>
+               <l>Fate has giv'n a diſmal ſtroak,</l>
+               <l>The Royal Three ſh' has baſely broke,</l>
+               <l>And lopp'd a Bough of <hi>Britains</hi> ſtately Oake.</l>
+            </lg>
+            <pb n="4" facs="tcp:110819:3"/>
+            <lg>
+               <l>Infinite Worlds! Where are they? give'um me,</l>
+               <l>I'le ſoon draw out their ſiccity;</l>
+               <l>Water alone each Globe ſhall be:</l>
+               <l>That they being turn'd all Sea, all Wave,</l>
+               <l>Drops big enough I thence may have,</l>
+               <l>Wherewith to moiſten this too early Grave.</l>
+            </lg>
+            <lg>
+               <l>Thy Whirl-wind Bottles <hi>Ae'lus</hi> hither ſend,</l>
+               <l>A Bottle on a Sigh I'le ſpend,</l>
+               <l>Till their whole ſtore come to an end:</l>
+               <l>Till death more boiſterous then they,</l>
+               <l>With fear look paler yet, and ſay</l>
+               <l>She is reſolved no more Dukes to ſlay.</l>
+            </lg>
+            <lg>
+               <l>Thus, thus would I my ſorrow teſtifie;</l>
+               <l>For as for Verſe or Elegy,</l>
+               <l>Who ſhould me 'nſpire doth breathleſs lie;</l>
+               <l>They that have ſeen the Corps, declare</l>
+               <l>It is <hi>Apollo</hi> lies dead there,</l>
+               <l>They knew him by his ruddy Face and Hair.</l>
+            </lg>
+            <lg>
+               <l>With ſmaller loſſes we can be content,</l>
+               <l>Slight-bottom'd Paſſion's quickly ſpent,</l>
+               <l>Such ſtripling ſorrows finde a vent:</l>
+               <l>But, Giant grief, where's one for thee?</l>
+               <l>Rivers may rowl into the Sea:</l>
+               <l>But whither ſhall the Ocean empty'd be?</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Lacheſis</hi> ſhunn'd the Palace formerly,</l>
+               <l>Such was her Maiden modeſty,</l>
+               <l>Shee ſeem'd afraid to come too nigh:</l>
+               <l>In at the Window ſhe did look,</l>
+               <l>But now ſhe hath the boldneſs took</l>
+               <l>The Houſe to enter, and finde out the Duke.</l>
+            </lg>
+            <pb n="5" facs="tcp:110819:3"/>
+            <lg>
+               <l>Then to appeaſe the incenſed Deities,</l>
+               <l>We ſaw't with over-flowing eyes,</l>
+               <l>There bled a Royal Sacrifice:</l>
+               <l>But now behold another Urn,</l>
+               <l>The other could not ſerve the turn,</l>
+               <l>A Royal Holocauſt muſt alſo burn.</l>
+            </lg>
+            <lg>
+               <l>In this Fort-Royal glowing, burning hot,</l>
+               <l>A Feaver had poſſeſſion got,</l>
+               <l>Although a Feaver, kill'd him not:</l>
+               <l>That meant to <hi>Come, and See, and ſlay;</hi>
+               </l>
+               <l>But coming had no power to ſtay,</l>
+               <l>The <hi>Mar'us</hi> look'd his Murtherer away.</l>
+            </lg>
+            <lg>
+               <l>Thou dealeſt ſubtly, moſt hard-hearted Fate,</l>
+               <l>The Sickneſs is we know not what;</l>
+               <l>It ſeemeth this, it ſeemeth that:</l>
+               <l>When at <hi>White-hall</hi> thou com'ſt to kill,</l>
+               <l>That which doth perform thy will,</l>
+               <l>The Executioner is muffled ſtill.</l>
+            </lg>
+            <lg>
+               <l>But he is now expir'd, and in his Face</l>
+               <l>We ſee too plain, too plain, alas!</l>
+               <l>Which of thy Aſſaſſines it was:</l>
+               <l>
+                  <hi>The beſt corrupted, worſt doth grow,</hi>
+               </l>
+               <l>Curſt Ax'ome, thou'rt too true we know,</l>
+               <l>Even in Royal Blood it holdeth ſo.</l>
+            </lg>
+            <lg>
+               <l>In th'Purple Stream ſome putrid Matter bred,</l>
+               <l>Which having got to the th'Fountain-head,</l>
+               <l>There Life it hath ſmoothered:</l>
+               <l>Thence to th'Surface it hath run,</l>
+               <l>As if the death it brought 'twould ſhun,</l>
+               <l>Where now it bluſhes for what it has done.</l>
+            </lg>
+            <pb n="6" facs="tcp:110819:4"/>
+            <lg>
+               <l>Fate thou'rt unjuſt, and ſo thy deeds evince,</l>
+               <l>And ſo I take thee ever ſince</l>
+               <l>Thou dealedſt thus with ſuch a Prince:</l>
+               <l>Thou didſt betempeſt him before,</l>
+               <l>And when we thought thou hadſt giv'n o're,</l>
+               <l>Thou throw'ſt him on a rock inſtead of ſhore.</l>
+            </lg>
+            <lg>
+               <l>How diff'rently the Iſle doth entertain</l>
+               <l>Its exil'd Lords, return'd again?</l>
+               <l>It gives Two eaſe, gives the Third pain:</l>
+               <l>It proves Their Countrey, His long home;</l>
+               <l>Yields Them a Court, but Him a Tomb;</l>
+               <l>Opens to Them her Arms to Him her Womb.</l>
+            </lg>
+            <lg>
+               <l>Had he been with his Siſter ta'ne away,</l>
+               <l>And gone with her the ſelf-ſame day,</l>
+               <l>In the <hi>Elyſ'an</hi> Fields to play:</l>
+               <l>Had then unripe, imperfect he</l>
+               <l>Acted this his Tragedy;</l>
+               <l>Imperfect too had been our miſery.</l>
+            </lg>
+            <lg>
+               <l>But now he's ripe, compleat, and perfect quite,</l>
+               <l>Now for to take him from our ſight,</l>
+               <l>This is the Quinteſſence of ſpight:</l>
+               <l>There's on thy Dart a point of Steel,</l>
+               <l>And poiſon on that point, we feel;</l>
+               <l>This wound is double, and ſo hard to heal.</l>
+            </lg>
+            <lg>
+               <l>Bold as thou art, thou haſt not fear'd to do</l>
+               <l>What Prov'dence ſcarce was conſc'ous to,</l>
+               <l>Of which the Powers above ne'r knew:</l>
+               <l>Had Heauen been conſcious to the deed,</l>
+               <l>'Twould not have ſtruck with ſo much ſpeed,</l>
+               <l>But would have warn'd, and bid us firſt take heed.</l>
+            </lg>
+            <pb n="7" facs="tcp:110819:4"/>
+            <lg>
+               <l>Some fiery tail had hover'd in the sky,</l>
+               <l>Wounding our hearts, thence through our eye;</l>
+               <l>And made us weep proaem'ally:</l>
+               <l>Some blazing gellies in the Air,</l>
+               <l>Had giv'n us notice to prepare,</l>
+               <l>That, what we lookt for, we might better bear.</l>
+            </lg>
+            <lg>
+               <l>Compar'd with Death, while it it's prey doth ſeek</l>
+               <l>Lions are tame, and Tygers meek;</l>
+               <l>Their teeth are blunt, their ſtomachs weak:</l>
+               <l>Therefore we fear what may betide,</l>
+               <l>We fear what yet remains beſide,</l>
+               <l>The rav'nous thing mayn't yet be ſatisfy'd.</l>
+            </lg>
+            <lg>
+               <l>Where's high-born <hi>YORK?</hi> ô, where's the <hi>Hero?</hi> Where?</l>
+               <l>If he's on Land, he's ſick we fear;</l>
+               <l>If he's at Sea, he's ſinking there:</l>
+               <l>We fear the Beaſt, ſeeking its food,</l>
+               <l>Makes at him through his Wall of Wood,</l>
+               <l>It knows the ſweetneſs now of Royal Blood.</l>
+            </lg>
+            <lg>
+               <l>Is this the entrance-fee that <hi>CHARLES</hi> muſt pay?</l>
+               <l>Muſt he wear Cypreſs with his Bay,</l>
+               <l>And looſe a lim to win the day?</l>
+               <l>Though undervalued of late,</l>
+               <l>They're coſtly things, theſe Chairs of State;</l>
+               <l>Three Crowns are dearly bought at ſuch a rate.</l>
+            </lg>
+            <lg>
+               <l>States ſoon take fire, and they are quencht as ſoon;</l>
+               <l>Empire (unconſtant as the Moon)</l>
+               <l>Is won and loſt, and loſt and won:</l>
+               <l>For here an armed General,</l>
+               <l>Heaven dropping ſheild, and man and all,</l>
+               <l>Our exil'd King may help us to recall.</l>
+            </lg>
+            <pb n="8" facs="tcp:110819:5"/>
+            <lg>
+               <l>But when a brother deadly heats accoſt,</l>
+               <l>If Hee's once loſt, Hee's ever loſt,</l>
+               <l>We can but follow 'm at the moſt;</l>
+               <l>The flame burnes in, and ſo burnes ſure,</l>
+               <l>All we can do is to indure,</l>
+               <l>For there is no <hi>Aumarle</hi> can work this cure.</l>
+            </lg>
+            <lg>
+               <l>No wonder, when he firſt to ſing began,</l>
+               <l>
+                  <hi>Henry</hi> was lik't by ev'ry man,</l>
+               <l>Alas! it was the dying Swan;</l>
+               <l>To him the Siſters did combine</l>
+               <l>To ſpin for thred a ſilken line,</l>
+               <l>Which was the ſooner broke for being fine:</l>
+            </lg>
+            <lg>
+               <l>Who'l ever ſeek by noble deeds to riſe?</l>
+               <l>Who'l care to be val'ant or wiſe?</l>
+               <l>When he ſhould enjoy't he dies;</l>
+               <l>We mount up Glory's hill in vain,</l>
+               <l>The higheſt top whereof t'attain</l>
+               <l>'S but to be ready to fall down again.</l>
+            </lg>
+            <lg>
+               <l>Ah! deareſt <hi>D<g ref="char:V">Ʋ</g>KE,</hi> I ask it with regret,</l>
+               <l>Why haſt ſo ſoon thy Coffin met?</l>
+               <l>Why didſt thou only riſe to ſet?</l>
+               <l>Where are thy acts of Chivalry!</l>
+               <l>Why muſt we a Chaſme ſee</l>
+               <l>In the Great STEWARTS growing Hiſtory?</l>
+            </lg>
+            <lg>
+               <l>What will become of that ſo glor'ous Name?</l>
+               <l>VVho ſhall now bear up the ſame,</l>
+               <l>And with it fill the roules of Fame?</l>
+               <l>That Name which to Three Nations deer</l>
+               <l>VVe loved in thy Uncle here,</l>
+               <l>And in thy Grand-father the world did fear?</l>
+            </lg>
+            <pb n="9" facs="tcp:110819:5"/>
+            <lg>
+               <l>True bud of the Imper'al Familie!</l>
+               <l>The Roſes ſtrive again in thee</l>
+               <l>For the ſuperioritie;</l>
+               <l>Thy ruddy Flowre it ſelfe did ſpread</l>
+               <l>All o're thy cheeks, but now thou 'rt dead</l>
+               <l>The White has got the better of the Red.</l>
+            </lg>
+            <lg>
+               <l>Thy Sire, when as he ſay his deſtiny,</l>
+               <l>When Monarchs wept and peaſants we</l>
+               <l>Groan'd for him as now for thee,</l>
+               <l>Something he left in charge, what was't?</l>
+               <l>
+                  <hi>Child, mind my words, they are my laſt,</hi>
+               </l>
+               <l>
+                  <hi>And make not to a Di'dem too much haſt;</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>
+                     <g ref="char:V">Ʋ</g>ntil thy Brothers firſt are ſerved, ſtay;</hi>
+               </l>
+               <l>Thus did he urge, thus did he ſay.</l>
+               <l>And thou did'ſt promiſe to obey;</l>
+               <l>Now what is this that thou haſt done?</l>
+               <l>Thou takeſt before <hi>CHARLES</hi> a Crown,</l>
+               <l>His Mortall's making, thy Immortal's on.</l>
+            </lg>
+            <lg>
+               <l>Old Bards would wonder, ſhould they live again,</l>
+               <l>To ſee perform'd what they did feign</l>
+               <l>Of the three Brethrens equal reign;</l>
+               <l>To one the land doth homage owe,</l>
+               <l>The Second ſwayes the ebbe and Flow,</l>
+               <l>The Third now rules the bleſſed ſhades below.</l>
+            </lg>
+            <lg>
+               <l>But ſtay, he hath not yeilded yet to fate,</l>
+               <l>Me thinks it is not yet too late</l>
+               <l>Men of Art to invocate;</l>
+               <l>
+                  <hi>Meſ'e</hi> and <hi>Solomon</hi> ariſe,</l>
+               <l>Royall Phyſit'ans, and devize</l>
+               <l>A Rem'dy ere this Royal pat'ent dies,</l>
+            </lg>
+            <pb n="10" facs="tcp:110819:6"/>
+            <lg>
+               <l>Old Galeniſt, new Paracelſian,</l>
+               <l>Conceited Roſi-crucian,</l>
+               <l>Do what you ſhould, do what you can:</l>
+               <l>What? is there no <hi>Riverius</hi>
+               </l>
+               <l>Will earn a Moſque from thankfull us,</l>
+               <l>And go into an <hi>Aeſculapius?</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Who e're thou art, fix this bright planet here,</l>
+               <l>Couſe him not yet to diſappear,</l>
+               <l>Not yet to mount his upper ſphear;</l>
+               <l>Thy ſure reward it ſhall be this,</l>
+               <l>E'en take that Apotheωſis</l>
+               <l>Of which through Thee he ſhall at preſent miſſe:</l>
+            </lg>
+            <lg>
+               <l>Comfortleſſe man whoſe comforters are theſe,</l>
+               <l>Theſe poor, poor factors for our eaſe,</l>
+               <l>Diſciples of <hi>Hippocrates!</hi>
+               </l>
+               <l>Fond they their fonder hopes do feed,</l>
+               <l>Thinking to find there-in and read</l>
+               <l>VVhat ne're wat carv'd on root, nor writ on weed;</l>
+            </lg>
+            <lg>
+               <l>Whoſe Art indeed it doth for Phyſick goe,</l>
+               <l>Call'd <hi>Practicall,</hi> but is not ſo,</l>
+               <l>VVhoſe ſons do at their beſt but <hi>know;</hi>
+               </l>
+               <l>Time Twenty of their yeares devoures,</l>
+               <l>VVhile they get skill in ſtarres and flowres,</l>
+               <l>VVhich to their lives ca'nt adde halfe Twenty howres:</l>
+            </lg>
+            <lg>
+               <l>VVee'l make our gally-pots in peices fly,</l>
+               <l>Let Rec'pes unconſulted lie,</l>
+               <l>And lay <hi>The Juſtitutions</hi> by,</l>
+               <l>A volume which prolongs our breath</l>
+               <l>As it its Author keeps from death,</l>
+               <l>It owes a figure all the force it hath.</l>
+            </lg>
+            <pb n="11" facs="tcp:110819:6"/>
+            <lg>
+               <l>Death, thou wilt enter, do we what we will,</l>
+               <l>Thy laſt yeares empty weekly-bill</l>
+               <l>With this great perſonage to fill;</l>
+               <l>
+                  <hi>September</hi> ſee's his obſequies,</l>
+               <l>Since <hi>May</hi>'s cool brightneſſe teſtifies</l>
+               <l>That <hi>Engliſh</hi> Kings <hi>Sans</hi> peſtilence can riſe;</l>
+            </lg>
+            <lg>
+               <l>Thou didſt not lay the crouded city waſt,</l>
+               <l>'Twas a ſtill aire the Summer paſt,</l>
+               <l>That ſtilneſſe brings a ſtorme at laſt;</l>
+               <l>Thou 'rt kind, but after ſuch a ſort</l>
+               <l>We give thee no Grammercy for't,</l>
+               <l>A city plague's leſſe than th' ſmall-Pox at Court:</l>
+            </lg>
+            <lg>
+               <l>When <hi>Worceſter</hi> for her ſelfe and maſter griev'd,</l>
+               <l>And men in iron were deceiv'd</l>
+               <l>Miſſing what peace hath ſince atcheiv'd,</l>
+               <l>Life was a petty, worthleſſe thing,</l>
+               <l>Men for a wall themſelves did bring</l>
+               <l>Twixt hatefull thee and their beloved King;</l>
+            </lg>
+            <lg>
+               <l>They ſav'd their Prince by being breathleſſe made,</l>
+               <l>Thy paſſage with their corps was ſtaid,</l>
+               <l>Thy thirſt was with their blood allaid;</l>
+               <l>We know who then in danger ſtood,</l>
+               <l>Though <hi>HENRY</hi> be not quite ſo good,</l>
+               <l>VVee'l give as many lives, and better bloud;</l>
+            </lg>
+            <lg>
+               <l>Slaughter the commons, mow the Gentry down,</l>
+               <l>Rage both in country and in town,</l>
+               <l>But come not thou ſo near the Crown;</l>
+               <l>So they may blunt thy arrowes head,</l>
+               <l>VVee I let thee ſtrike whole 1000's dead,</l>
+               <l>And in their bloud die thy white-facet horſe red;</l>
+            </lg>
+            <pb n="12" facs="tcp:110819:7"/>
+            <lg>
+               <l>But there's no <hi>Incus</hi> in this ſet of bones,</l>
+               <l>It has no eare to lend our groans,</l>
+               <l>Heares nor for poor, nor mighty ones,</l>
+               <l>It neither place, nor perſon ſhuns,</l>
+               <l>To cottage and to pallace runs,</l>
+               <l>And puffs out ſmaller ſtarres, and blowes out Suns:</l>
+            </lg>
+            <lg>
+               <l>Hold, Tyrant ſickneſſe, hold thy hand a while</l>
+               <l>Till Princeſſe <hi>Mary</hi> tread our Iſle,</l>
+               <l>And take her brothers laſt ſweet ſmile;</l>
+               <l>Hee's dear to heav'n, to earth hee's dear,</l>
+               <l>Seraphims expect him there,</l>
+               <l>A mortall Angell comes to ſee him here:</l>
+            </lg>
+            <lg>
+               <l>Stay then, but thou art us'd for none to ſtay,</l>
+               <l>No not a week, no not a day,</l>
+               <l>But this nights <hi>Duke's</hi> to morrowes clay:</l>
+               <l>Thou wilt be ferry'ng men of note</l>
+               <l>Over the <hi>Lethaean</hi> moat,</l>
+               <l>Though with their weight they break thy <hi>Charon's</hi> boat.</l>
+            </lg>
+            <lg>
+               <l>VVe would prevail: but ſince we know not how,</l>
+               <l>VVee'l beg no more, weel dare thee now,</l>
+               <l>Diſmalneſſe, bend thy horrid brow:</l>
+               <l>An 100 times more ugly be</l>
+               <l>Than we do pourtract <hi>Tragedy,</hi>
+               </l>
+               <l>His father taught him not to care for thee:</l>
+            </lg>
+            <lg>
+               <l>Hee'l die as mighty <hi>Hercules</hi> did die,</l>
+               <l>VVhen he did in mount <hi>Oeta</hi> fry,</l>
+               <l>Fier'd into a Deity:</l>
+               <l>Tis chymick heat in's bloud doth ſwim,</l>
+               <l>T'wil ſublimate terreſtr'al him</l>
+               <l>And ſo make of a <hi>Duke</hi> a <hi>Cherubim:</hi>
+               </l>
+            </lg>
+            <pb n="13" facs="tcp:110819:7"/>
+            <lg>
+               <l>
+                  <hi>Fiat</hi> was lately ſpoke, and t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>end our wo<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>Spite of falſe freinds and real ſoes</l>
+               <l>Three Luminaries there aroſe:</l>
+               <l>Eclypſe ye one <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> crue,</l>
+               <l>Extinguiſh him, fell ſiſters d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</l>
+               <l>This <hi>World by 'ts ſelfe</hi> may be conte<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> with two</l>
+            </lg>
+            <lg>
+               <l>But let it not be talkt of ev'ry where:</l>
+               <l>VVould that the <hi>Mar-Clarſum</hi> were</l>
+               <l>To ſtop the newes and keep i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> here:</l>
+               <l>For as it paſſes o're the Seas</l>
+               <l>T'will take fromthence new bitterneſſe</l>
+               <l>And make ſome hearers greive unto exceſſe.</l>
+            </lg>
+            <lg>
+               <l>Others will ſcoffe, and ſay to our diſgrace</l>
+               <l>The Land can't brook the Royall race,</l>
+               <l>But <hi>like Inhabitants, like place,</hi>
+               </l>
+               <l>They'l turne old Proverbs into new,</l>
+               <l>They'l ſay what they may well think true</l>
+               <l>VVee'r <hi>mala gente, mala terra</hi> too:</l>
+            </lg>
+            <lg>
+               <l>Let not the tidings get into <hi>the Port,</hi>
+               </l>
+               <l>Leſt cruel mirth poſſeſſe that court,</l>
+               <l>And our diſaſter prove their ſport:</l>
+               <l>He that to ſhine himſelfe alone</l>
+               <l>Stabs younger brethren though his own,</l>
+               <l>At ſuch a ſtory'l rather laugh than mourne:</l>
+            </lg>
+            <lg>
+               <l>Hee'l full thoſe Hornes which for his Armes he beares</l>
+               <l>VVhen of <hi>Brittaines</hi> loſſe he heares,</l>
+               <l>Chriſt'ans will own the Croſſe for theirs:</l>
+               <l>If it be to the <hi>Auſtr'ans</hi> told,</l>
+               <l>
+                  <hi>Philip</hi> will weep in ſhowres of Gold,</l>
+               <l>Sorrow will make young <hi>Leopold</hi> looke old:</l>
+            </lg>
+            <pb n="14" facs="tcp:110819:8"/>
+            <lg>
+               <l>If it be know'n unto the <hi>Palatine,</hi>
+               </l>
+               <l>'Twill breed new troubles, ſowre his wine,</l>
+               <l>Draw down his cheeks another <hi>Rhine;</hi>
+               </l>
+               <l>To <hi>France</hi> whoever travelleth,</l>
+               <l>VVhile he relates of <hi>Glouceſters</hi> death</l>
+               <l>Hee'l blaſt the Flowre-de Luces with his breath;</l>
+            </lg>
+            <lg>
+               <l>And then th' afflicted mother cannot chooſe</l>
+               <l>But her infant joyes refuſe,</l>
+               <l>VVhen ſhe underſtands the newes</l>
+               <l>Of ſuch a ſeparation</l>
+               <l>VVrought betwixt her and her ſon,</l>
+               <l>Sep'rate before but in opinion;</l>
+            </lg>
+            <lg>
+               <l>Some think the road to heav'n through <hi>Italy,</hi>
+               </l>
+               <l>Climbling ſeaven hils they 're nigh</l>
+               <l>In their conceit unto the sky;</l>
+               <l>Some think the road as farre from thence</l>
+               <l>As it may be thither hence,</l>
+               <l>To <hi>Europes</hi> center from 'ts circumference;</l>
+            </lg>
+            <lg>
+               <l>The Prince had been allur'd for <hi>Rome</hi> to make,</l>
+               <l>And bid the <hi>Latine way</hi> to take,</l>
+               <l>But did the <hi>Latine way</hi> forſake;</l>
+               <l>He bravely kept the Golden Mean,</l>
+               <l>And has nor chang'd nor ſhaken been</l>
+               <l>By an enticeing VVoman, Mother, Queen:</l>
+            </lg>
+            <lg>
+               <l>VVe ſafely may our deareſt freinds neglect</l>
+               <l>VVhen they the truth it ſelfe reject,</l>
+               <l>The virtue here is Diſreſpect;</l>
+               <l>Since to believe what Parents ſay</l>
+               <l>Where Sacred Oracles ſay Nay,</l>
+               <l>Were to adore whom we ſhould but obey:</l>
+            </lg>
+            <pb n="15" facs="tcp:110819:8"/>
+            <lg>
+               <l>Mighty <hi>Henretta</hi> of her aime muſt miſſe,</l>
+               <l>She has her Zeale, and He has his</l>
+               <l>Dutifull in all but this;</l>
+               <l>What though the <hi>Hug'notte</hi> are or'e-run?</l>
+               <l>What though new-Doctrin'd <hi>R<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>chell's</hi> won?</l>
+               <l>She finds an 100 <hi>Rochell<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s</hi> in her Sonne:</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Morneys</hi> may faint, and throw down ſword and ſheild,</l>
+               <l>Reformed Cittadels may yeild,</l>
+               <l>Proteſtant Armies looſe the Feild:</l>
+               <l>But <hi>CHARLES's</hi> race will ſtand it out,</l>
+               <l>Being at Twelve or there-about</l>
+               <l>In judgment Clear, in reſolut on Stout:</l>
+            </lg>
+            <lg>
+               <l>He was not to be won by force or art,</l>
+               <l>But from his mother did depart:</l>
+               <l>That ſtuck not much unto her heart:</l>
+               <l>But this unto the quick will touch,</l>
+               <l>Exceeding t'other wound as much</l>
+               <l>As not to be 's worſe than not to be ſuch:</l>
+            </lg>
+            <lg>
+               <l>But ſhe and we the loſſe muſt kindly bear,</l>
+               <l>VVe ours therein, ſh' her greater ſhare:</l>
+               <l>VVhat Heav<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n has need of Earth muſt ſpare:</l>
+               <l>Earth, which if no change it knew,</l>
+               <l>If its darlings ne'r with-drew,</l>
+               <l>VVhat's Heav'ns free gift would look upon as due.</l>
+            </lg>
+            <lg>
+               <l>No matter then what cruel criticks gueſſe,</l>
+               <l>VVho judg of Vertue by Succeſſe,</l>
+               <l>By outward chance of right ouſneſſe:</l>
+               <l>The Lawes of Charity they'l break,</l>
+               <l>They will moſt learnedly miſtake,</l>
+               <l>And on ſo black a text black comments make:</l>
+            </lg>
+            <pb n="16" facs="tcp:110819:9"/>
+            <lg>
+               <l>I, they muſt be profoundly curious,</l>
+               <l>And know why things are thus and thus;</l>
+               <l>Lend 'um thy Tube <hi>Hevelius,</hi>
+               </l>
+               <l>Not to behold with rare delight</l>
+               <l>Dark ſpots in <hi>Sol</hi>'s Meridian light;</l>
+               <l>Or Inſects crawling in the Moon by Night.</l>
+            </lg>
+            <lg>
+               <l>They'l look beyond the Sun, and <hi>Saturn</hi> too,</l>
+               <l>Heav'ns Councel-Chamber they will view,</l>
+               <l>And ſee what <hi>th' All in All</hi> doth do:</l>
+               <l>They will their Makers thoughts deſcry</l>
+               <l>Who can't their Fellow-creatures ſpy,</l>
+               <l>Which one would think more obv'ous to the eye.</l>
+            </lg>
+            <lg>
+               <l>If hence they gather ſigns of Heavens hate,</l>
+               <l>And from ſo ſoon-ſnacht <hi>GLO<g ref="char:V">Ʋ</g>CESTER's</hi> fate</l>
+               <l>Another fall Prognoſticate,</l>
+               <l>I finde at Court a Motto fit</l>
+               <l>To anſwer their preſumpt'ous wit,</l>
+               <l>
+                  <hi>Honiſcit qui mal y penſe</hi> 's it.</l>
+            </lg>
+            <lg>
+               <l>When the wiſe <hi>Ptolemy</hi>'s firſt courſe was done,</l>
+               <l>In came the gaſtly Skeleton,</l>
+               <l>That was the next to be ſet on:</l>
+               <l>That King by feeding ſo their ſight,</l>
+               <l>By blending Horror with Delight,</l>
+               <l>Taught his Attendants how to feed aright.</l>
+            </lg>
+            <lg>
+               <l>Thus with our Lord doth boundleſs Wiſdom do</l>
+               <l>(And what is that to me or you?)</l>
+               <l>Here's a ſad ſpectacle to view:</l>
+               <l>Here's a <hi>Memento</hi> at the leaſt,</l>
+               <l>Here is ſerv'd in his deareſt gueſt</l>
+               <l>At this his glor'ous Reſtauration Feaſt.</l>
+            </lg>
+            <pb n="17" facs="tcp:110819:9"/>
+            <lg>
+               <l>If Storms affright the Land, and vex the Seas,</l>
+               <l>Shake our Towers, o're-turn our Trees,</l>
+               <l>Let 'um go judge ev'n what they pleaſe:</l>
+               <l>But here is no tempeſt'ous day,</l>
+               <l>No maſſy Elmes lye croſs the way,</l>
+               <l>'Tis the <hi>ſtill voice</hi> that calleth him away.</l>
+            </lg>
+            <lg>
+               <l>When purer Matter's upward, heav'n-ward bound,</l>
+               <l>No rumblings in the Air are found,</l>
+               <l>It paſſes without ſtir or ſound:</l>
+               <l>Whil'ſt what doth to the Center tend,</l>
+               <l>Earths bowels in its way muſt rend,</l>
+               <l>And therefore cannot but with noiſe deſcend.</l>
+            </lg>
+            <lg>
+               <l>Dying the world he never troubled,</l>
+               <l>Nor troubles it now he is dead,</l>
+               <l>By being richly buryed:</l>
+               <l>His worth's to him a Hearſe alone,</l>
+               <l>A ſtately and a laſting one,</l>
+               <l>It makes a <hi>Mauſolaeum</hi> of one Stone.</l>
+            </lg>
+            <lg>
+               <l>Each Engliſh heart to his memorial</l>
+               <l>'s a Monument Pyramidal,</l>
+               <l>
+                  <hi>CHARLES</hi>'s breaſt an <hi>Eſcurial:</hi>
+               </l>
+               <l>He needeth no ſolemnity,</l>
+               <l>But like his Sire intomb'd may be;</l>
+               <l>Who gave ignoble Graves Nobility?</l>
+            </lg>
+            <lg>
+               <l>Thoſe Coats of Arms we on the dead beſtow</l>
+               <l>Are richeſt which no Art do know,</l>
+               <l>On which no Pearls, no Gold they throw:</l>
+               <l>And he who's plainly, meanly clad,</l>
+               <l>Is own'd ſuch luſtre to have had,</l>
+               <l>That Art and Nature thereto could not adde.</l>
+            </lg>
+            <pb n="18" facs="tcp:110819:10"/>
+            <lg>
+               <l>Lay but a piece of Marble where he lies,</l>
+               <l>Marble for its qualities</l>
+               <l>Hard to the touch, white to the eyes:</l>
+               <l>If any ask for what intent,</l>
+               <l>Of him an Emblem 't may be meant,</l>
+               <l>Who was ſo Conſtantly ſo Innocent.</l>
+            </lg>
+            <lg>
+               <l>If this be done, well done! ye Over-ſeers;</l>
+               <l>Monuments whoſ'ever rears</l>
+               <l>Gives Death a Triumph, Wo's our Tears:</l>
+               <l>And Tears already are too rife,</l>
+               <l>See who it is that mourns in Chief,</l>
+               <l>The ſame is King of <hi>England,</hi> and of Grief.</l>
+            </lg>
+            <lg>
+               <l>Muſes, if e're you ſhew'd your dainty Art,</l>
+               <l>Now put on Verſe and play your part,</l>
+               <l>And dance bout penſive <hi>CHARLES</hi>'s heart:</l>
+               <l>Take <hi>Horaces</hi> ſweet Lyre awhile,</l>
+               <l>And <hi>Virgils</hi> high majeſtick Style,</l>
+               <l>
+                  <hi>Auguſtus</hi> 'twixt theſe two may chance to ſmile.</l>
+            </lg>
+            <lg>
+               <l>Go, viſit him as you are uſ'd to do,</l>
+               <l>When thoughts what thoughts have ſpent renew,</l>
+               <l>And wee'r his Care, his Solace you:</l>
+               <l>Upon his Meditat'ons wait,</l>
+               <l>His Mirth increaſe, his Grief abate,</l>
+               <l>Which cauſe it fills his heart is very great.</l>
+            </lg>
+            <lg>
+               <l>Tell him, unleſs he quickly comfort take,</l>
+               <l>Our Comfort and our Health's at ſtake,</l>
+               <l>We ſuffer while our head doth ake:</l>
+               <l>There's much to tell him, but in ſum</l>
+               <l>Tell him of's Brother what's become,</l>
+               <l>Something of that muſt be the <hi>Medium.</hi>
+               </l>
+            </lg>
+            <pb n="19" facs="tcp:110819:10"/>
+            <lg>
+               <l>If Souls turn Stars when they from hence are flown,</l>
+               <l>Of the firſt Magnitude he's one,</l>
+               <l>And ſhines in the bright Northern Crown:</l>
+               <l>If the renown'd Philoſopher</l>
+               <l>'Bout <hi>Tranſmigration</hi> did not erre,</l>
+               <l>He's now ſome new born Eaſtern Emperor.</l>
+            </lg>
+            <lg>
+               <l>If Sp'rits departed from their Earthly Cell</l>
+               <l>In the Air like <hi>Genii</hi> dwell,</l>
+               <l>W'have one more <hi>Guard'an-Michael:</hi>
+               </l>
+               <l>If they whom ſhades of Death enwrap</l>
+               <l>Doe but ſleep, he takes a nap</l>
+               <l>In the <hi>Elyſ'an</hi> Sultaneſſes lap.</l>
+            </lg>
+            <lg>
+               <l>But why relate I Whimſies ſuch as thoſe?</l>
+               <l>Why do I pret'ous minutes looſe,</l>
+               <l>One or t'other to ſuppoſe?</l>
+               <l>Stellification, fancy is,</l>
+               <l>And ſo is Metempſychoſis;</l>
+               <l>
+                  <hi>Gen'i</hi> are Dreams, Soul-ſleepers all men hiſs.</l>
+            </lg>
+            <lg>
+               <l>Shew him who you and us protect on gives,</l>
+               <l>Shew him how without cauſe he greives,</l>
+               <l>For why, in bliſſe His <hi>HENRY</hi> lives;</l>
+               <l>The Dukes of <hi>Glouceſter,</hi> ſignify,</l>
+               <l>Are ſo near kinne to Majeſty</l>
+               <l>Like <hi>Engliſh Kings</hi> themſelves they <hi>never dye:</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>His Corps indeed have had their Buriall,</l>
+               <l>As all His Royall Kindred ſhall,</l>
+               <l>In th' Abby (ah! too) near <hi>White-hall;</hi>
+               </l>
+               <l>The Cover's here interred, true;</l>
+               <l>But the Jewel upward flew,</l>
+               <l>And has new-caſ't it ſelfe in yonder blue;</l>
+            </lg>
+            <pb n="20" facs="tcp:110819:11"/>
+            <lg>
+               <l>Yonders a building of a ſtately'r frame,</l>
+               <l>My thoughts are light with ſacred flame,</l>
+               <l>And to themſelves deſcribe the ſame;</l>
+               <l>
+                  <hi>New-Jeruſalem</hi> 'tis call'd,</l>
+               <l>With Chryſolite and Berill wall'd,</l>
+               <l>And with our high'ſt Church Steeples pedeſtall'd:</l>
+            </lg>
+            <lg>
+               <l>The Architect was he of whom 'tis ſaid</l>
+               <l>An Artiſt he <hi>Bezal el</hi> made,</l>
+               <l>And taught <hi>Vitruvius</hi> his trade,</l>
+               <l>Form'd craggy rocks and fertile feilds,</l>
+               <l>And all that land or water yeilds,</l>
+               <l>He bidd's mater'als be, and builders builds;</l>
+            </lg>
+            <lg>
+               <l>A court it is wherein none die, none mourn,</l>
+               <l>A Senate which doth ne're adjourn,</l>
+               <l>Where joy for ſcarlet robes is worn;</l>
+               <l>Therefore it was that <hi>HENRY</hi> dy'd,</l>
+               <l>Thither in fiery Coach to ride,</l>
+               <l>And change his Brothers for his Fathers ſide;</l>
+            </lg>
+            <lg>
+               <l>There <hi>Glouceſter's</hi> coronetted, crown'd with light,</l>
+               <l>Thick glory makes him all o're bright,</l>
+               <l>No <hi>Cromwels</hi> keep him from his right;</l>
+               <l>And now he has begun to Reign,</l>
+               <l>Now he hath once poſſeſſ'on ta'ne,</l>
+               <l>No <hi>Puſtulae</hi> do force him thence again.</l>
+            </lg>
+            <lg>
+               <l>Haile, Prince Triumphant, and excuſe our love,</l>
+               <l>Which greives at what the Quires above</l>
+               <l>Sing ſo much for, ſo much approve;</l>
+               <l>VVe've done, we will no more complain,</l>
+               <l>Becauſe thou dy'dſt in no great pain,</l>
+               <l>And endleſſe eaſe with little ſmart did'ſt gain;</l>
+            </lg>
+            <pb n="21" facs="tcp:110819:11"/>
+            <lg>
+               <l>Wee'l end our <hi>Th<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>nody,</hi> and dry our teares,</l>
+               <l>Becauſe thou dy'dſt well ſtruck in yeares,</l>
+               <l>As by thy well-lead life appeares;</l>
+               <l>Thou livedſt long in little ſpace,</l>
+               <l>Condenſing time as it did paſſe,</l>
+               <l>Each Houre a Month, each Month a Luſtrum was:</l>
+            </lg>
+            <lg>
+               <l>And now ſhall we thoſe happy times behold</l>
+               <l>Which were the Silver Age of old,</l>
+               <l>And had'ſt thou ſtay'd would be of Gold:</l>
+               <l>The <hi>Norman</hi> Aera's out of date,</l>
+               <l>Wee'l ill events count from thy fate,</l>
+               <l>From <hi>CHARLES</hi>'s reigne ſucceſſes fortunate:</l>
+            </lg>
+            <lg>
+               <l>Hee'l be obey'd to <hi>Europes</hi> utmoſt ſtrand,</l>
+               <l>And o'r more Nat'ons have command</l>
+               <l>Than thou poſſeſſeſt feet of land;</l>
+               <l>And under him ſhall <hi>Ovids</hi> riſe,</l>
+               <l>And <hi>Ovids</hi> ſuch as may ſuffice</l>
+               <l>Fit <hi>Aen'ids</hi> and fit <hi>Il'ads</hi> to devize:</l>
+            </lg>
+            <lg>
+               <l>Let them Sing <hi>CHARLES</hi>'s day, and <hi>HENRY</hi>'s night,</l>
+               <l>Let them for him new <hi>Faſti</hi> write,</l>
+               <l>For thee new <hi>Elegy</hi>'s indite:</l>
+               <l>Let them be what I would have bin,</l>
+               <l>Let them compleat what I begin:</l>
+               <l>Theſe ſheets are too too ſcant to wind thee in.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
